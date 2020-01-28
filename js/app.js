@@ -8,7 +8,7 @@ var mymap = L.map('mapid').setView([41.3866854, 2.1699935], 17);
 		id: 'mapbox/streets-v11'
 	}).addTo(mymap);
 
-	L.marker([51.5, -0.09]).addTo(mymap);
+	L.marker([41.3866569, 2.1659264]).addTo(mymap);
 
 	L.circle([51.508, -0.11], {
 		color: 'red',

@@ -24,6 +24,6 @@ function createMarker() {
         marker = L.marker([latitude, longitude]).addTo(map);
         var group = new L.featureGroup([marker]);
         map.fitBounds(group.getBounds());
-        marker.bindPopup("Mis coordenadas son: <br>" + "<br>Lat: " + latitude + " Lng: " + longitude+"</br>").openPopup();
+        marker.bindPopup("Mis coordenadas son: <br>" + "<b>Lat: " + latitude + " Lng: " + longitude+"</b>").openPopup();
 	});
 }
